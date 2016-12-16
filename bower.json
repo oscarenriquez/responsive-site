@@ -1,0 +1,28 @@
+{
+  "name": "responsive-site",
+  "homepage": "https://github.com/oscarenriquez/responsive-site",
+  "authors": [
+    "oscarenriquez <oscar.enriquez.torre@gmail.com>"
+  ],
+  "description": "Responsive Site with Bootstrap",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "HTML5",
+    "CSS3",
+    "BOOTSTRAP",
+    "JQUERY"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

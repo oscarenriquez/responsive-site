@@ -1,0 +1,56 @@
+body {
+    margin-top: 60px;
+    margin-bottom: 160px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sticky-footer {
+    background-color: #333;
+    bottom: 0;
+    color: #fff;
+    min-height: 150px;
+    position: fixed;
+    width: 100%;
+}
+
+.social {
+    background: url(../img/social-media-icons-the-circle-set.png);
+    background-size: 140px;
+    background-repeat: no-repeat;    
+    border-radius: 50%;
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+.facebook {
+    background-position: -12px -12px;    
+}
+
+.twitter {
+    background-position: -55px -12px;    
+}
+
+.g-plus {
+    background-position: -12px -54px;    
+}
+
+.img-small {
+    width: 200px;
+}
+
+.clear {
+    clear: both;
+}
+
+.glyphicon.fx {
+    font-size: 50px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 769px) {    
+    .sticky-footer ul > li {
+        display: inline-block;
+        margin-left: 15px;        
+    }
+}
